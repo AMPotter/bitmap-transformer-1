@@ -1,0 +1,31 @@
+{
+  "name": "bitmap-transformer-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "mocha": "mocha",
+    "test": "npm run mocha",
+    "pretest": "npm run lint",
+    "start": "npm run mocha -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AMPotter/bitmap-transformer-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AMPotter/bitmap-transformer-1/issues"
+  },
+  "homepage": "https://github.com/AMPotter/bitmap-transformer-1#readme",
+  "devDependencies": {
+    "eslint": "^5.0.1",
+    "mocha": "^5.2.0"
+  }
+}
